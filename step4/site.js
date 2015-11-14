@@ -21,7 +21,7 @@ function animateToSection(link, current, previous) {
   effectNode.style.background = newColor;
 
   var scaleSteps = [{transform: 'scale(0)'}, {transform: 'scale(1)'}];
-  var timing = {duration: 2500, easing: 'ease-in-out'};
+  var timing = {duration: 1000, easing: 'ease-in-out'};
 
   var scaleEffect = new KeyframeEffect(effectNode, scaleSteps, timing);
 
